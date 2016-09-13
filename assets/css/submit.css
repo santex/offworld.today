@@ -1,0 +1,533 @@
+/* CSS Document */
+
+body{
+	background-color:#F2F2F2;
+	overflow: auto!important;
+}
+input[type="email"] {
+    font-size:11px!important;
+	padding:0px!important;
+	width:98%;
+}
+input[type="text"] {
+    font-size:11px!important;
+	padding:0px!important;
+	width:98%;
+}
+input[type="text"].typeahead{ border-radius:0px;
+ height:18px; border:none; width:221%; line-height:20px;}
+
+input[type="tel"] {
+    font-size:11px!important;
+	padding:0px!important;
+	width:98%;
+}
+
+input[type="url"] {
+    font-size:11px!important;
+	padding:0px!important;
+	width:98%;
+}
+
+
+
+.display{
+	display: block;
+}
+.noDisplay{
+	display: none;
+}
+
+.addForm{
+	background-color: #2d6bb0;
+    color: white;
+	}
+
+.PopupPanel
+{
+    border: solid 1px black;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    z-index: 1000000;
+
+    height: 200px;
+    margin-top: -200px;
+
+    width: 400px;
+    margin-left: -100px;
+	
+}
+
+.popUpFormItem{
+	margin-bottom: 12px;
+}
+
+#orgNames, #venueNames{
+	width:98.5%;
+}
+
+#eventAck{display: none};
+
+
+.correct{ border-bottom-color:rgba(109,197,114,1.00); border-bottom-width:2px; }
+
+.rightColumn{ position:absolute!important;}
+
+select{width:95%; font-size:11px;}
+
+.dateContainer{ padding-top:5px;}
+
+
+.dateInstructions{ font-size:11px; display:inline-block; text-align:center; }
+
+.dateInstructions	{}
+.dateText{ font-size:11px}
+
+.specialNote .btn{ padding:0; font-size:10px; margin-left:5px;}
+
+hr{ margin-bottom:5px; margin-top:30px;}
+
+.dateInputs{ padding-top:5px; padding-left:5px;}
+.datepicker{ width:25%;}
+
+.lastDate {float:right; margin-right:20px; }
+
+.datepicker-dropdown{width:20%;}
+	
+.inputText{ width:50px;}
+
+.inputLabel{ margin-bottom:-15px;}
+
+.eventDetail{height: 380px; background-color: white; border-color: rgba(154,148,148,0.83); border-style:solid; border-width:1px; padding-top:10px;}
+
+.eventDetailColumn{}
+
+.mainDateInputs{ height:200px; padding-top:20px;}
+
+.readableDateInput{ margin-top:15px; height: 35px;}
+
+.dateSection{ background-color:#fcf4f6; height:115px; width:95%}
+
+.descriptionSection{height:170px; width:95%}
+
+.specialNoteDiv{ 
+margin-top:5px;}
+
+i, em {font-family:verdana; }
+
+#eventDescription{ width:100%; height:150px; font-size:11px; }
+
+.linkButton{ background-color:#126FDD;
+border-color:#FFFFFF; border-style:solid; border-width:2px; border-radius:7px; height:27px; float:right; margin-right:10px; font-size:12px; min-width:60px; 
+}
+
+.emailSection{ height:80px; background-color: #F2F2F2; border-color: rgba(154,148,148,0.83); border-style:solid; border-width:1px;
+}
+.emailInputs{ margin-top:10px;}
+
+.submitFooter{ background-color: #2d6bb0; height:45px;
+border: solid;
+border-width: 1px;
+border-color: rgba(154,148,148,0.83);
+} 
+
+
+
+.buttonContainer { text-align: center;
+margin: auto;
+padding-top: 10px;
+}
+
+#submitButton{
+	background-color: rgb(18, 111, 221);
+border-color: rgb(255, 255, 255);
+border-style: solid;
+border-width: 2px;
+border-radius: 7px;
+height: 22px;
+
+margin-right: 10px;
+font-size: 11px;
+min-width: 60px;
+color: white;
+}
+#submitButtonOrg{
+	background-color: rgb(18, 111, 221);
+border-color: rgb(255, 255, 255);
+border-style: solid;
+border-width: 2px;
+border-radius: 7px;
+height: 22px;
+
+margin-right: 10px;
+font-size: 11px;
+min-width: 60px;
+color: white;
+}
+
+#submitButtonVenue{
+	background-color: rgb(18, 111, 221);
+border-color: rgb(255, 255, 255);
+border-style: solid;
+border-width: 2px;
+border-radius: 7px;
+height: 22px;
+
+margin-right: 10px;
+font-size: 11px;
+min-width: 60px;
+color: white;
+}
+
+#submitButton:hover { color:#B90248;
+background-color:#FFFFFF;
+	
+}
+
+#submitButtonOrg:hover { color:#B90248;
+background-color:#FFFFFF;
+	
+}
+
+#submitButtonVenue:hover { color:#B90248;
+background-color:#FFFFFF;
+	
+}
+
+.popUpFormItem #submitButton { 
+height: 26px;
+font-size: 14px;	
+}
+
+.popUpFormItem #submitButton:hover { color:#B90248;
+background-color: #A4A4A4;
+}
+
+.correct{
+	    border: green;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.incorrect{
+	    border: red;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.orgVenueSInputs{
+	height:120px; background-color: #EBEEF2; border-color: rgba(154,148,148,0.83); border-style:solid; border-width:1px; padding-top:10px
+}
+.specialNote{
+font-size:12px; padding-left:5px;	
+}
+.orgVenueSection
+{ height:100px; background-color: #EBEEF2; border-color: rgba(154,148,148,0.83); border-style:solid; border-width:1px;
+}
+
+button:hover { color:#B90248;
+background-color:#FFFFFF;
+	
+}
+
+.ticketSection{ padding-top:20px!important;}
+
+.ticketArea {height:150px; background-color: #F7F7F7; border-color: rgba(154,148,148,0.83); border-style:solid; border-width:1px;
+}
+
+.checkValues{ display:inline-block; padding-left:12px; font-size:12px } 
+
+.submitHeader{
+ background-color:#FFFFFF;
+ margin-left: 15px;
+margin-right: 15px;
+width: 97%;
+}
+@font-face
+{
+	fontWeight: medium;
+	fontStyle: medium;
+    src:url("/fonts/OmnesSem.ttf");
+    fontFamily: myOmnes;
+}
+
+Application{
+	font-family:Verdana;
+	font-size:11;
+}
+
+Label{
+	font-weight:bold;
+}
+
+i,em{ font-family: inherit;
+}
+
+.about{
+	
+padding-right: 10px;
+	color: #808080;
+	fontFamily: Verdana;
+	font-weight:normal;
+	selectable:false;
+	padding-left: 10px;
+line-height: 150%;
+font-size: 12px;
+padding-top: 10px;
+border: solid;
+border-width: 1px;
+border-color: rgba(154,148,148,0.83); 
+font-family: Verdana;
+background-color:#FFFFFF;height: 730px;width:100%;
+}
+
+.fiftyPercent{
+position:relative; width:45%; display:inline-block; padding-left:30px; padding-top:7px;	
+}
+.inputLabel{
+font-size:12px;	
+}
+
+.title{
+	fontFamily: myOmnes;
+	fontWeight: normal;
+	fontSize: 14;
+}
+.entryBox{
+	horizontalGap: 0;
+	borderThickness: 3;
+	borderColor: #E6E6E6; 
+	borderStyle: solid;	
+	horizontalGap: 0;
+	verticalScrollPolicy: off;
+	horizontalScrollPollicy: off;
+}
+.promptingTxtInput
+{
+	prompt: Hello world;
+	borderStyle: solid;
+	borderColor: #4D4D4D;
+	width: 320;
+	height:100;
+}
+.popupTitle
+{
+	color: #B90248;
+	fontFamily: myOmnes;
+	fontWeight: normal;	
+	fontSize: 14;
+	
+}
+.popupText
+{
+	color: #808080;
+	fontFamily: Verdana;
+	fontSize: 12;
+	fontWeight: normal;
+}
+.popupWindow
+{
+	backgroundAlpha: 1;
+	backgroundColor: #FFFFFF;
+	borderColor: #B90248;
+	borderStyle: solid;
+	borderThickness: 4;
+}
+.warning
+{
+	color: #B90248;
+	fontSize: 10;
+	fontStyle: normal;
+	fontWeight: bold;
+	height: 18;
+}
+
+Alert{
+color : #124332;
+background-color: #ffffff;
+header-colors : #243322, #243322;
+header-height:19;
+drop-shadow-enabled: true;
+drop-shadow-color :#243322;
+corner-radius :6;
+border-style :solid;
+border-thickness: 1;
+border-color : #243322;
+footer-colors : #243322, #ffffff;
+title-style-name : "title";
+}
+
+.title{
+font-family :Verdana;
+font-size :10;
+font-weight :bold;
+color :#ffffff;
+}
+
+/* Type ahead styles */
+.typeahead,
+.tt-query,
+.tt-hint {
+  width: 396px;
+  height: 30px;
+  padding: 8px 12px;
+  font-size: 24px;
+  line-height: 30px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+  outline: none;
+}
+
+.typeahead {
+  background-color: #fff;
+}
+
+.typeahead:focus {
+  border: 2px solid #0097cf;
+}
+
+.tt-query {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.tt-hint {
+  color: #999
+}
+
+.tt-menu {
+  width: 422px;
+  margin: 12px 0;
+  padding: 8px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+     -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+          box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.tt-suggestion {
+  padding: 3px 20px;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+.tt-suggestion:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #2d6bb0;
+}
+
+.tt-suggestion.tt-cursor {
+  color: #fff;
+  background-color: #0097cf;
+
+}
+
+.tt-suggestion p {
+  margin: 0;
+}
+
+.gist {
+  font-size: 14px;
+}
+
+/* example specific styles */
+/* ----------------------- */
+
+#custom-templates .empty-message {
+  padding: 5px 10px;
+ text-align: center;
+}
+
+#multiple-datasets .league-name {
+  margin: 0 20px 5px 20px;
+  padding: 3px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#scrollable-dropdown-menu .tt-menu {
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+#rtl-support .tt-menu {
+  text-align: right;
+}
+
+/* end typeahead styles */
+
+@media (min-width: 768px) and  (max-width: 991px) {
+	#endDate,#startDate{
+		width:45px!important;
+		}
+	.about{
+	 width:100%	
+	}
+	input[type="text"].typeahead{ border-radius:0px;
+ height:18px; border:none; width:163%; line-height:20px;}
+}
+@media (max-width:767px){
+	.about{
+	width:100%;
+	height:70%;	
+	}
+	#endDate,#startDate{
+		width:35px!important;
+		}
+	
+	}
+@media (max-width: 400px){
+	.fiftyPercent{
+	  display:block;
+	  width:100%;	
+	}
+	.emailSection{
+		height:150px;
+	}
+	.orgVenueSInputs{height:200px;
+	}
+	.ticketArea{height:450px}
+	.rightColumn{padding-top:100px!important}
+}
+@media (max-width: 770px){
+	#endDate,#startDate{
+		width:35px!important;
+		}
+		input[type="text"].typeahead{ border-radius:0px;
+ height:18px; border:none; line-height:20px;}
+}
+
+@media (min-width: 1200px){
+	input[type="text"].typeahead{ border-radius:0px;
+ height:18px; border:none; width:275%; line-height:20px;}
+}
+
+@media (max-width: 664px){
+	input[type="text"].typeahead{ border-radius:0px;
+ height:18px; border:none; width:195%; line-height:20px;}
+}
+
+@media (max-width: 516px){
+	input[type="text"].typeahead{ border-radius:0px;
+ height:18px; border:none; width:142%; line-height:20px;}
+}
+
+@media (max-width: 568px){
+	input[type="text"].typeahead{ border-radius:0px;
+ height:18px; border:none; width:142%; line-height:20px;}
+}
+
+@media (max-width: 694px){
+	input[type="text"].typeahead{ border-radius:0px;
+ height:18px; border:none; width:192%; line-height:20px;}
+}
